@@ -17,7 +17,7 @@ def admin():
 
 @app.route("/<name>")
 def name(name):
-    return f'Helluuo {name}'
+    return f'Hello {name}'
 
 if __name__=="__main__":
     app.run(debug=True)
